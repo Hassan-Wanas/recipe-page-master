@@ -4,7 +4,17 @@ module.exports = {
     './index.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      White1: '#FAFAFA',
+      Orange: '#F2994A',
+      Gray1: '#333333',
+      Gray2: '#4F4F4F',
+      Gray4: '#BDBDBD',
+    },
+    fontFamily: {
+      Montserrat: 'Montserrat',
+      PlayfairDisplay: 'Playfair Display'
+    }
   },
   plugins: [],
 }
