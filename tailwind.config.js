@@ -5,11 +5,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      White1: '#FAFAFA',
-      Orange: '#F2994A',
-      Gray1: '#333333',
-      Gray2: '#4F4F4F',
-      Gray4: '#BDBDBD',
+      colors: {
+        White1: '#FAFAFA',
+        Orange: '#F2994A',
+        Gray1: '#333333',
+        Gray2: '#4F4F4F',
+        Gray4: '#BDBDBD',
+        Gray5: '#C4C4C4'
+      }
     },
     fontFamily: {
       Montserrat: 'Montserrat',
