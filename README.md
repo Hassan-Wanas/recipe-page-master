@@ -16,7 +16,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-challenge}">
+    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
       Challenge
     </a>
   </h3>
@@ -37,8 +37,8 @@
 
 ## Overview
 
-- A new Step in my journey and I really happy with it because my responsive desgin is getting better.
-- I will continue the HARD work till i be a pro
+- I am pleased with this new Step in my journey because my responsive design is improving.
+- I will continue the HARD work till I am a pro
 
 ### Built With
 
