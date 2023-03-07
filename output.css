@@ -513,16 +513,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-/* Create a custom checkbox */
-
-/* When the checkbox is checked, add a blue background */
-
-/* Create the checkmark/indicator (hidden when not checked) */
-
-/* Show the checkmark when checked */
-
-/* Style the checkmark/indicator */
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -784,6 +774,16 @@ video {
   text-decoration-line: underline;
 }
 
+.checked\:bg-Orange:checked {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 153 74 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-Orange:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 153 74 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:col-span-2 {
     grid-column: span 2 / span 2;
@@ -823,6 +823,10 @@ video {
     height: auto;
   }
 
+  .lg\:w-8\/12 {
+    width: 66.666667%;
+  }
+
   .lg\:w-\[216px\] {
     width: 216px;
   }
@@ -831,20 +835,8 @@ video {
     width: 592px;
   }
 
-  .lg\:w-\[969px\] {
-    width: 969px;
-  }
-
   .lg\:w-auto {
     width: auto;
-  }
-
-  .lg\:w-10\/12 {
-    width: 83.333333%;
-  }
-
-  .lg\:w-8\/12 {
-    width: 66.666667%;
   }
 
   .lg\:flex-col {
